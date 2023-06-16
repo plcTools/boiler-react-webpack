@@ -1,4 +1,4 @@
-import './global.css'
+import './tailwind.css'
 import React from 'react';
 import Accordion from './components/accordion';
 import ButtonRounded from './components/buttonRounded';
