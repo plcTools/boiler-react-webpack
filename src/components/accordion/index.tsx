@@ -1,7 +1,7 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import "./style.css";
 
-export default function Accordion({ children }) {
+export default function Accordion({ children }:{children:React.ReactNode}) {
   return (
     <>
       <h1>Titulo de prueba</h1>
